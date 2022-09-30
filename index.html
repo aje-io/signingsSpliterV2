@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Signings Spliter</title>
     <script src="index.js"></script>
     <script defer src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
@@ -17,19 +17,50 @@
     />
   </head>
   <body>
-    <div class="container mx-auto px-4">
+    <!-- component -->
+
+    <nav class="mt-100">
+      <div class="nav-item"><a href="">Signings Spliter</a></div>
+    </nav>
+
+    <div class="container -100 mx-auto px-4">
       <!-- The Card container -->
       <div
         class="py-8 my-8 text-gray-500 bg-white shadow-xl border border-gray-100 rounded-2xl font-medium"
       >
         <div class="slider-div">
-          <h1>Enter The Number of users</h1>
+          <h1>Enter The Number of uss</h1>
           <span id="rangeValue">0</span>
           <Input class="range" type="range" name "" value="1" min="1" max="15"
           onChange="rangeSlide(this.value)"
           onmousemove="rangeSlide(this.value)">
         </div>
       </div>
+      <div class="flex flex-wrap justify-evenly">
+        <div class="mb-5">
+          <label
+            for="message"
+            class="mb-3 block text-base font-medium text-[#07074D]"
+          >
+            Message
+          </label>
+          <textarea
+            rows="4"
+            name="message"
+            id="message"
+            placeholder="Type your message"
+            class="w-full resize-none rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+          ></textarea>
+        </div>
+        <button
+          type="button"
+          class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+        >
+          Start Allocation
+        </button>
+      </div>
+
+      <!-- output Section -->
 
       <div class="div test-flex flex-wrap flex justify-between">
         <div
@@ -37,7 +68,10 @@
         >
           <div class="info-card">
             <div class="mt-4 text-gray-500 sm:pr-8 mx-8">
-              <i class="fa-solid fa-barcode"></i>
+              <div class="flex justify-between">
+                <i class="fa-solid fa-barcode"></i>
+                <i class="fa-solid">300</i>
+              </div>
 
               <h5 class="mt-4 text-xl font-bold text-gray-900">
                 Unique Market Reference
