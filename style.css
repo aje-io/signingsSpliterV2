@@ -1,10 +1,10 @@
 nav {
-  background-color: #ffffff;
-  opacity: 0.9;
-  filter: alpha(opacity=50);
-  backdrop-filter: blur(0.5);
+  background-color: #000000;
+  opacity: 0.65;
+  filter: alpha(opacity=90);
+  backdrop-filter: blur(0.9);
   width: 100vw;
-  height: 20vh;
+  height: 18vh;
   position: fixed;
   z-index: 1;
   border-bottom: 1px solid rgb(136, 136, 136);
@@ -52,14 +52,15 @@ nav {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #00fd0a;
+  background: #797979;
   cursor: pointer;
   border: 4px solid #333;
-  box-shadow: -407px 0 0 400px #00fd0a;
+  box-shadow: -407px 0 0 400px #a3a3a3;
 }
 
 nav {
+  color: aliceblue;
   font-family: "Tangerine", serif;
   font-size: 48px;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 4px 4px 4px rgb(255, 255, 255);
 }
