@@ -59,8 +59,8 @@ nav {
 }
 
 nav {
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   font-family: "Tangerine", serif;
   font-size: 48px;
-  text-shadow: 4px 4px 4px rgb(255, 255, 255);
+  text-shadow: 4px 8px 4px rgb(90, 165, 178);
 }
